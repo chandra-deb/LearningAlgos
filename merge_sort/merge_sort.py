@@ -42,10 +42,8 @@ def merge_sort(array:list) -> None:
 
     
 
-array = [random.randint(0,1000000) for _ in range(10000000)]
-
-
-
+array = [5,1]
 
 merge_sort(array)
+print(array)
         
